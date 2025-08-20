@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - Antonello</title><link href="/" rel="alternate"></link><link href="/feeds/antonello.atom.xml" rel="self"></link><id>/</id><updated>2019-10-20T09:20:00+00:00</updated><entry><title>Welcome to .... !</title><link href="/welcome-to.html" rel="alternate"></link><published>2019-10-20T09:20:00+00:00</published><updated>2019-10-20T09:20:00+00:00</updated><author><name>Antonello</name></author><id>tag:None,2019-10-20:/welcome-to.html</id><content type="html">&lt;h2&gt;Welcome to Pelican&lt;/h2&gt;
+&lt;p&gt;Hello! I am the home page&lt;/p&gt;</content><category term="pages"></category><category term="huh"></category></entry></feed>

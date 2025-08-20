@@ -15,6 +15,15 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+
+THEME = '/usr/local/lib/pelican_env/eh_solar_server/eh_archive/theme/minimal-xy'
+
+# Theme customizations
+MINIMALXY_CUSTOM_CSS = 'static/custom.css'
+MINIMALXY_FAVICON = 'favicon.ico'
+MINIMALXY_START_YEAR = 2009
+MINIMALXY_CURRENT_YEAR = date.today().year
+
 # Blogroll
 LINKS = (
     ("Pelican", "https://getpelican.com/"),
@@ -27,6 +36,12 @@ LINKS = (
 SOCIAL = (
     ("You can add links in your config file", "#"),
     ("Another social link", "#"),
+)
+
+# Menu
+MENUITEMS = (
+    ('Categories', '/' + CATEGORIES_SAVE_AS),
+    ('Archive', '/' + ARCHIVES_SAVE_AS),
 )
 
 DEFAULT_PAGINATION = False
