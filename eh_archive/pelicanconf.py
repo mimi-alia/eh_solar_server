@@ -1,3 +1,5 @@
+from datetime import date
+
 AUTHOR = 'eh_admin'
 SITENAME = 'eh_archive'
 SITEURL = ""
@@ -19,7 +21,7 @@ AUTHOR_FEED_RSS = None
 THEME = '/usr/local/lib/pelican_env/eh_solar_server/eh_archive/theme/minimal-xy'
 
 # Theme customizations
-MINIMALXY_CUSTOM_CSS = 'static/custom.css'
+# MINIMALXY_CUSTOM_CSS = 'static/custom.css'
 MINIMALXY_FAVICON = 'favicon.ico'
 MINIMALXY_START_YEAR = 2009
 MINIMALXY_CURRENT_YEAR = date.today().year
@@ -39,6 +41,9 @@ SOCIAL = (
 )
 
 # Menu
+CATEGORIES_SAVE_AS = 'categories.html'
+ARCHIVES_SAVE_AS = 'archives.html'
+
 MENUITEMS = (
     ('Categories', '/' + CATEGORIES_SAVE_AS),
     ('Archive', '/' + ARCHIVES_SAVE_AS),

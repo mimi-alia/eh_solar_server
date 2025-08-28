@@ -3,6 +3,7 @@
 
 import os
 import sys
+from datetime import date
 
 sys.path.append(os.curdir)
 from pelicanconf import *
