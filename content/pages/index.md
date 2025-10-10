@@ -5,7 +5,8 @@ URL: index.html
 Authors: eh_admin
 Summary: Short summary for the landing page.
 
-# Welcome to the Project Archive for the Center for Experimental Humanities
+Welcome to the Project Archive for the Center for Experimental Humanities
+
 
 ![Our beautiful shipping container building]({static}/images/solar4.png)
 
