@@ -1,8 +1,14 @@
 AUTHOR = 'eh_admin'
-SITENAME = 'eh_archive'
+SITENAME = 'EH Projects Archive'
 SITEURL = ""
 
 PATH = "content"
+
+PAGE_PATHS = ['pages']
+
+STATIC_PATHS = ['images', 'extra']
+
+OUTPUT_PATH = "output/"
 
 TIMEZONE = 'Europe/Rome'
 
